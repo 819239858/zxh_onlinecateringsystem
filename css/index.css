@@ -1,0 +1,46 @@
+@charset "utf-8";
+hr {
+  border:2px solid #03681A;
+}
+#main #catogary1 {
+   position: relative;
+   border:1px solid #E6E6E6;
+   border-top:4px solid #E6E6E6;
+   height:120px;
+ }
+#main #catogary1 h4 {
+  color: #999999;
+}
+#main #catogary1 ul{
+  position: absolute;
+  top:10px;
+  left:120px;
+  font-size: 16px;
+}
+#main #catogary1 .active {
+  width: 90px;
+  height:40px;
+  line-height: 40px;
+  background: #F6F6F6;
+}
+#main #catogary2 {
+  border:1px solid #E6E6E6;
+  margin-top: 20px;
+  padding: 10px;
+}
+.loading {
+  width: 20px;
+  height:20px;
+}
+.addr span {
+  margin-left:20px;
+}
+.sspan {
+  top:-70px;
+}
+.ssname {
+  width:250px;
+  margin-top: -70px;
+  border:2px solid #03681A;
+}
+

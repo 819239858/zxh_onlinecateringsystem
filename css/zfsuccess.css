@@ -1,0 +1,16 @@
+.zfsuccess {
+  border: 1px solid #ccc;
+  height:200px;
+}
+.zfsuccess p {
+  height:50px;
+  line-height: 50px;
+  padding-left: 10px;
+}
+.zfsuccess ul {
+  margin-left: 10%;
+}
+.zfsuccess ul li {
+  list-style-type: square;
+  margin-top: 10px;
+}

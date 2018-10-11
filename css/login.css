@@ -1,0 +1,30 @@
+@charset "utf-8";
+#login {
+	position: relative;
+	left:0;
+	top:0;
+	width:1366px;
+	height:768px;
+	background:url("../img/registerbg.jpg") no-repeat;
+}
+#login .main {
+	position: absolute;
+	left:60%;
+	top:25%;
+	width:250px;
+	height:250px;
+	border:2px solid #443E4B;
+	padding:15px;
+	border-radius: 10px;
+	box-shadow: 0 0 24px 6px #000;
+}
+#login .main .code {
+	border-radius: 3px;
+	text-indent: 10px;
+	width:100px;
+	height:30px;
+	margin-right:10px;
+}
+#login .main .register {
+	margin-left: 5px;
+}

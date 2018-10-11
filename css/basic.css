@@ -1,0 +1,65 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{
+  margin: 0;
+  padding: 0;
+}
+html{
+  color: #000;
+  background: #fff;
+}
+body{
+  font-size: 12px;
+  font-family: "微软雅黑";
+  position: relative;
+  margin-top: 25px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 100%;
+  font-weight: normal;
+}
+em,strong,b,u,i{
+  font-style: normal;
+  font-weight: normal;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+select{
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+}
+img{
+  border: 0 none;
+  vertical-align: top;
+}
+input{
+  border: none;
+}
+textarea{
+  resize: none;
+  overflow: auto;
+}
+input,textarea{
+  outline: none;
+}
+em{
+  font-style: normal;
+}
+#header .navbar{
+  min-height:25px;
+  line-height: 25px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+

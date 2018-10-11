@@ -1,0 +1,47 @@
+.page {
+  transition: all .2s linear;
+  position: absolute;
+  width: 100%;
+}
+/*要离开的元素动画开始时的样式*/
+.page.ng-leave {
+  left:0;
+  opacity: 1;
+}
+/*要离开的元素动画结束时的样式*/
+.page.ng-leave.ng-leave-active {
+  left:-100%;
+  opacity:0;
+}
+/*要进入的元素动画开始时的样式*/
+.page.ng-enter {
+  left:100%;
+  opacity:0;
+}
+/*要进入的元素动画结束时的样式*/
+.page.ng-enter.ng-enter-active {
+  left:0;
+  opacity:1;
+}
+body {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.jz{
+  height: 50px;
+  margin-bottom:40px;
+}
+.disable-flase{
+  pointer-events:none;
+}
+.panel {
+  width:500px;
+  margin: 40px auto ;
+  margin-top: -10px;
+}
+.searchText {
+  width:250px;
+  height: 35px;
+  border:1px solid #ccc;
+  text-indent: 20px;
+}
